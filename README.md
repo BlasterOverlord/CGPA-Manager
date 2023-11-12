@@ -1,5 +1,5 @@
 # CGPA Manager
-#### Video Demo:  <URL HERE>
+#### Video Demo:  <https://youtu.be/d1HLf6CkzVE>
 #### Description:
 This is my final project for [CS50x](https://cs50.harvard.edu/x/).
 
