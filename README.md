@@ -16,19 +16,19 @@ This web app was made using a python frameword called [Flask](https://flask.pall
 
 Now for some nerdy talk, let's take a look at what makes this thing work.
 In the root directory we have:
-`app.py` which contains code for running most of everything as Flask requires it. It deals with managing routes, storing data to the SQL database and redirecting to different pages of the web app.
-`data.db` is the database where all information including user's login credentials are stored.
-`helpers.py` contains some helper functions that deals with most of the calculations.
-`requirements.txt` contains the names of the external packages that need to be installed on someone's computer if they want to build and run this project locally on their computer.
+- `app.py` contains code for running most of everything as Flask requires it. It deals with managing routes, storing data to the SQL database and redirecting to different pages of the web app.
+- `data.db` is the database where all information including user's login credentials are stored.
+- `helpers.py` contains some helper functions that deals with most of the calculations.
+- `requirements.txt` contains the names of the external packages that need to be installed on someone's computer if they want to build and run this project locally on their computer.
 
 The `static` folder is where the favicon, CSS and JavaScript files are stored. Inside this folder you'll find `favicon.ico` which is the favicon used in this web app, `script.js` is the JavaScript file that contains code to handle adding and deleting rows when someone's adding a semester and `styles.css` which is the css file containing some navbar customisation and a few custom changes that I wanted to make. I have barely used any custom css and have mostly used Bootstrap to customise my web app. 
 
 The `templates` folder contains all the html files.
-`add.html` is the web page that's displayed when someone clicks on the "Add Semester" button on the homepage.
-`index.html` is the web page that displays the homepage.
-`layout.html` is the jinja template that the other html pages use (except for `add.html` because I did not want to show the semester options on the navbar until after they saved a semester).
-`login.html` is the login page.
-`register.html` is the page that is shown when someone's registering a new account.
-`semester.html` is the web page that is shown when the user clicks one of the semester options shown in the navbar once they've saved a semester.
-`sorry.html` shows a customised apology page when an error is encountered like wrong login credentials etc.
-And finally `target.html` is the page that is shown when someone clicks the "Change Target" button on the homepage to set a target.
+- `add.html` is the web page that's displayed when someone clicks on the "Add Semester" button on the homepage.
+- `index.html` is the web page that displays the homepage.
+- `layout.html` is the jinja template that the other html pages use (except for `add.html` because I did not want to show the semester options on the navbar until after they saved a semester).
+- `login.html` is the login page.
+- `register.html` is the page that is shown when someone's registering a new account.
+- `semester.html` is the web page that is shown when the user clicks one of the semester options shown in the navbar once they've saved a semester.
+- `sorry.html` shows a customised apology page when an error is encountered like wrong login credentials etc.
+- And finally `target.html` is the page that is shown when someone clicks the "Change Target" button on the homepage to set a target.
