@@ -12,7 +12,7 @@ Now, regardless of whether a user has set a target or not, they can go ahead and
 You can watch the [Video Demo](https://github.com/BlasterOverlord/CS50x-Final-Project/tree/main#video-demo--) for a more visual presentation.
 
 #### How I made this:
-This web app was made using a python frameword called [Flask](https://flask.palletsprojects.com/en/3.0.x/) which was introduced to us on week 9 of CS50x. I admit that I was a bit lazy with implementing my own design and so I just went with [C$50 Finance](https://finance.cs50.net/login)'s design.
+This web app was made using a python frameword called [Flask](https://flask.palletsprojects.com/en/3.0.x/) which was introduced to us on week 9 of CS50x. I admit that I was a bit lazy with implementing my own design and so I had just went with [C$50 Finance](https://finance.cs50.net/login)'s design.
 
 Now for some nerdy talk, let's take a look at what makes this thing work.
 In the root directory we have:
