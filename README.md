@@ -16,7 +16,7 @@ This web app was made using a python frameword called [Flask](https://flask.pall
 
 Now for some nerdy talk, let's take a look at what makes this thing work.
 In the root directory we have:
-`app.py` contains code for running most of everything as Flask requires it. It deals with managing routes, storing data to the SQL database and redirecting to different pages of the web app.
+`app.py` which contains code for running most of everything as Flask requires it. It deals with managing routes, storing data to the SQL database and redirecting to different pages of the web app.
 `data.db` is the database where all information including user's login credentials are stored.
 `helpers.py` contains some helper functions that deals with most of the calculations.
 `requirements.txt` contains the names of the external packages that need to be installed on someone's computer if they want to build and run this project locally on their computer.
