@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Change Target
+{% endblock %}
+
+{% block main %}
+
+<form action="/target" method="post">
+    <div>
+        <input autocomplete="off" required autofocus class="form-control mx-auto w-25" min="0" max="4" name="target" placeholder="CGPA" type="number" step=".01">
+    </div>
+    <p class="text-body-secondary mb-4">Enter your targetted cgpa</p>
+
+    <div>
+        <input autocomplete="off" required class="form-control mx-auto w-25" min="4" max="12" name="semesters" placeholder="Semesters" type="number">
+    </div>
+    <p class="text-body-secondary mb-4">Enter the total number of semesters</p>
+    <button class="btn btn-danger" type="submit">Set Target</button>
+</form>
+
+{% endblock %}

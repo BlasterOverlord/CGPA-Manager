@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+
+<!--https://getbootstrap.com/docs/5.3/components/card/#using-utilities-->
+
+<div class="alert alert-primary alert-dismissible fade show" role="alert">
+    Welcome! Please keep in mind that different colleges/universities have different methods to calculate their GPA/CGPA, so this may not work for you!
+    This app uses the following method to calculate the GPA: ( Summation of (Credit hours in a course * Grade points earned in that course) ) &divide (Total number of credit hours completed).
+    <br><b>This app only supports 4 point CGPA systems!</b>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<div class="row">
+    <div class="card border-danger w-auto ms-auto me-auto mt-auto mb-auto mx-auto my-auto">
+        <div class="card-body">
+            <h2 class="card-title">Your CGPA</h2>
+            <p class="card-text fs-1">{{ cgpa|round(2) }}</p>
+        </div>
+    </div>
+
+    <div class="card border-danger w-auto me-auto mt-auto mb-auto ms-auto mx-auto my-auto">
+        <div class="card-body">
+            <h2 class="card-title">To reach your target</h2>
+            <p class="card-text fs-3">{{ required }}</p>
+        </div>
+    </div>
+
+    <div class="card border-danger w-auto me-auto mt-auto mb-auto ms-auto mx-auto my-auto">
+        <div class="card-body">
+            <h2 class="card-title">Your Target</h2>
+            <p class="card-text fs-1">{{ target }}</p>
+            <a href="/target" class="btn btn-danger">Change Target</a>
+        </div>
+    </div>
+</div>
+
+<a href="/add" class="btn btn-success w-auto mt-5 me-auto mb-3 ms-auto">Add Semester</a>
+
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Semester {{semester_id}}
+{% endblock %}
+
+{% block main %}
+    <h1 class="mb-3 mx-auto">Semester {{ semester_id }}</h1>
+
+    <h5 class="mb-3 mx-start text-success-emphasis">GPA for this semester: {{ gpa|round(2) }}</h5>
+
+    <!-- Display Semester Data in a Table -->
+    <table class="table table-bordered table-hover table-striped">
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Credit Hours</th>
+                <th>Grade Point (GP)</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-divider">
+            {% for row in semester_data %}
+                <tr>
+                    <td>{{ row.course }}</td>
+                    <td>{{ row.credit }}</td>
+                    <td>{{ row.gpa }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <form action="/delete/{{ semester_id }}" method="post">
+        <button class="btn btn-danger mx-auto mt-5" type="submit">Delete Semester</button>
+    </form>
+{% endblock %}
