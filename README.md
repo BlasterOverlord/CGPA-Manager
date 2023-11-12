@@ -21,7 +21,7 @@ In the root directory we have:
 `helpers.py` contains some helper functions that deals with most of the calculations.
 `requirements.txt` contains the names of the external packages that need to be installed on someone's computer if they want to build and run this project locally on their computer.
 
-The `static` folder is where the favicon, CSS and JavaScript files are stored. Inside this folder you'll find `favicon.ico` which is the favicon used in this web app, `script.js` is the JavaScript file that contains code to handle adding and deleting rows when someone's adding a semester and `styles.css` which is the css file containing some navbar customisation and a few custom changes that I wanted to make.
+The `static` folder is where the favicon, CSS and JavaScript files are stored. Inside this folder you'll find `favicon.ico` which is the favicon used in this web app, `script.js` is the JavaScript file that contains code to handle adding and deleting rows when someone's adding a semester and `styles.css` which is the css file containing some navbar customisation and a few custom changes that I wanted to make. I have barely used any custom css and have mostly used Bootstrap to customise my web app. 
 
 The `templates` folder contains all the html files.
 `add.html` is the web page that's displayed when someone clicks on the "Add Semester" button on the homepage.
