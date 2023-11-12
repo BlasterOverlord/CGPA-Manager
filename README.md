@@ -9,7 +9,7 @@ It is a web app made using Flask that shows the user their cgpa along with some 
 After logging in users can set a target by clicking the "Change Target" button on the rightmost card. This will open up a new page that asks the user for their targeted cgpa and the total number of semesters that they have (this is capped at 12).
 
 Now, regardless of whether a user has set a target or not, they can go ahead and start adding their completed semesters by clicking on the "Add Semester" button on the homepage. This will open up a new page that allows them to input course name, credit hours and gpa for each of their courses in that semester. After adding all the info, users need to click the save button to save their semester which will then redirect them back to the homepage. After adding semesters, options to view data of those semesters will also show up on the navbar.
-You can watch the [Video Demo](https://github.com/BlasterOverlord/CS50x-Final-Project/tree/main#video-demo--) for a more visual presentation.
+You can watch the [Video Demo](https://youtu.be/d1HLf6CkzVE) for a more visual presentation.
 
 #### How I made this:
 This web app was made using a python frameword called [Flask](https://flask.palletsprojects.com/en/3.0.x/) which was introduced to us on week 9 of CS50x. I admit that I was a bit lazy with implementing my own design and so I had just went with [C$50 Finance](https://finance.cs50.net/login)'s design.
