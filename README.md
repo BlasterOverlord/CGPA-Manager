@@ -6,7 +6,8 @@ This is my final project for [CS50x](https://cs50.harvard.edu/x/).
 It is a web app made using Flask that shows the user their cgpa along with some other useful information like how much gpa they need to score in each semester to achieve their targeted cgpa by the time they graduate. All user information along with their course and gpa data is stored securely in a database. Users can login and update their progress anytime they want. Users need to create an account and login to use this web app.
 
 #### How to use:
-You can use it here: https://blasteroverlord.pythonanywhere.com/login
+
+**You can use it from here: https://blasteroverlord.pythonanywhere.com/**
 
 After logging in users can set a target by clicking the "Change Target" button on the rightmost card. This will open up a new page that asks the user for their targeted cgpa and the total number of semesters that they have (this is capped at 12).
 
