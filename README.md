@@ -4,9 +4,9 @@
 ## Description:
 This is my final project for [CS50x](https://cs50.harvard.edu/x/).
 
-It is a web app made using Flask that shows the user their cgpa along with some other useful information like how much gpa they need to score in each semester to achieve their targeted cgpa by the time they graduate. All user information along with their course and gpa data is stored securely in a database. Users can login and update their progress anytime they want. Users need to create an account and login to use this web app.
+It is a web app made using Flask that shows the user their cgpa along with some other useful information like how much gpa they need to score in each semester to achieve their targeted cgpa by the time they graduate. Users can login and update their progress anytime they want. Users need to create an account and login to use this web app.
 
-### How to use:
+## How to use:
 **You can use it from here: https://blasteroverlord.pythonanywhere.com/**
 
 After logging in users can set a target by clicking the "Change Target" button on the rightmost card. This will open up a new page that asks the user for their targeted cgpa and the total number of semesters that they have (this is capped at 12).
@@ -14,7 +14,7 @@ After logging in users can set a target by clicking the "Change Target" button o
 Now, regardless of whether a user has set a target or not, they can go ahead and start adding their completed semesters by clicking on the "Add Semester" button on the homepage. This will open up a new page that allows them to input course name, credit hours and gpa for each of their courses in that semester. After adding all the info, users need to click the save button to save their semester which will then redirect them back to the homepage. After adding semesters, options to view data of those semesters will also show up on the navbar.
 You can watch the [Video Demo](https://youtu.be/d1HLf6CkzVE) for a more visual presentation.
 
-### How I made this:
+## How I made this:
 This web app was made using a python frameword called [Flask](https://flask.palletsprojects.com/en/3.0.x/) which was introduced to us on week 9 of CS50x. I admit that I was a bit lazy with implementing my own design and so I had just went with [C$50 Finance](https://finance.cs50.net/login)'s design.
 
 
